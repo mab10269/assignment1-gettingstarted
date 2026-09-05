@@ -22,7 +22,7 @@ def welcome_assignment_answers(question):
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
     else: 
-        answer = "These are not the answers you are looking for."
+        answer = "This is not the way stranger..."
     return(answer)
     
 #Questions & Answers:
