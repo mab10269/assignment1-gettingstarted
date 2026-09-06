@@ -1,7 +1,3 @@
-### welcome_assignment_answers
-### Input - All nine questions given in the assignment.
-### Output - The right answer for the specific question.
-
 def welcome_assignment_answers(question):
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
         answer = "Pcap"
