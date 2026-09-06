@@ -17,9 +17,10 @@ def welcome_assignment_answers(question):
         answer = 5
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
-    else: 
+    else:
         answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
     return(answer)
+
 
 if __name__ == "__main__":
     debug_question1 = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
@@ -31,7 +32,7 @@ if __name__ == "__main__":
     debug_question7 = "is MD5 a secured hashing algorithm? - Yes/No"
     debug_question8 = "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number"
     debug_question9 = "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number"
-
+    
     print(welcome_assignment_answers(debug_question1))
     print(welcome_assignment_answers(debug_question2))
     print(welcome_assignment_answers(debug_question3))
