@@ -21,7 +21,6 @@ def welcome_assignment_answers(question):
         answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
     return(answer)
 
-
 if __name__ == "__main__":
     debug_question1 = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
     debug_question2 = "Are encoding and encryption the same? - Yes/No"
